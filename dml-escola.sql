@@ -44,3 +44,19 @@ UPDATE Alunos
 	SET Idade = 32
 	WHERE Nome = 'Manoel'
 ;
+
+UPDATE Alunos
+	SET Idade = 19
+	WHERE Id = 4
+;
+
+UPDATE Alunos
+	SET Idade = 14,
+		Email = 'luiza.novo@email.com'
+	WHERE Id = 2
+;
+
+DELETE FROM Alunos
+	WHERE Id = 1
+;
+
